@@ -14,7 +14,7 @@ namespace VetAppointment.API.Controllers
         private readonly IRepository<PrescribedDrug> prescribedDrugRepository;
         private readonly IRepository<Drug> drugRepository;
 
-        public TreatmentsController(IRepository<Treatment> treatmentRepository,
+        public TreatmentsController(IRepository<Treatment> treatmentRepository, 
             IRepository<PrescribedDrug> prescribedDrugRepository, IRepository<Drug> drugRepository)
         {
             this.treatmentRepository = treatmentRepository;
@@ -81,104 +81,5 @@ namespace VetAppointment.API.Controllers
 
             return NoContent();
         }
-
-        [HttpPut("{treatmentId:Guid}")]
-        public IActionResult UpdateTreatment(Guid treatmentId, [FromBody] CreateTreatmentDto treatmentDto)
-        {
-            var treatment = treatmentRepository.Get(treatmentId);
-            if (treatment == null)
-            {
-                return NotFound();
-            }
-
-            //treatment.Description = treatmentDto.Description;
-            var result = treatment.UpdateDescription(treatmentDto.Description);
-            if (result.IsFailure)
-            {
-                return BadRequest(result.Error);
-            }
-
-            treatmentRepository.Update(treatment);
-            treatmentRepository.SaveChanges();
-
-            return NoContent();
-        }
-
-        [HttpPut("{treatmentId:Guid}/drug/{drugId:Guid}")]
-        public IActionResult UpdateDrugInTreatment(Guid treatmentId, Guid drugId, [FromBody] PrescribedDrugDto drugDto)
-        {
-            var treatment = treatmentRepository.Get(treatmentId);
-            if (treatment == null)
-            {
-                return NotFound();
-            }
-
-            var drugPrescribed = prescribedDrugRepository.Get(drugId);
-            if (drugPrescribed == null)
-            {
-                return NotFound();
-            }
-
-            var drug = drugRepository.Get(drugDto.DrugId);
-            if (drug == null)
-            {
-                return NotFound();
-            }
-
-            var result = drugPrescribed.Update(drugDto.Quantity, drug);
-
-            if (result.IsFailure)
-            {
-                return BadRequest(result.Error);
-            }
-
-            prescribedDrugRepository.Update(drugPrescribed);
-            prescribedDrugRepository.SaveChanges();
-
-            return NoContent();
-        }
-
-        [HttpDelete("{treatmentId:Guid}/drug/{drugId:Guid}")]
-        public IActionResult RemoveDrugFromTreatment(Guid treatmentId, Guid prescribedDrugId)
-        {
-            var treatment = treatmentRepository.Get(treatmentId);
-            if (treatment == null)
-            {
-                return NotFound();
-            }
-
-            var drug = prescribedDrugRepository.Get(prescribedDrugId);
-            if (drug == null)
-            {
-                return NotFound();
-            }
-
-            var result = treatment.RemoveDrugFromTreatment(drug);
-            if (result.IsFailure)
-            {
-                return BadRequest(result.Error);
-            }
-
-            prescribedDrugRepository.Delete(drug);
-            prescribedDrugRepository.SaveChanges();
-
-            return NoContent();
-        }
-
-        [HttpDelete("{treatmentId:Guid}")]
-        public IActionResult Delete(Guid treatmentId)
-        {
-            var treatment = treatmentRepository.Get(treatmentId);
-            if (treatment == null)
-            {
-                return NotFound();
-            }
-
-            treatmentRepository.Delete(treatment);
-            treatmentRepository.SaveChanges();
-
-            return NoContent();
-        }
-
     }
 }

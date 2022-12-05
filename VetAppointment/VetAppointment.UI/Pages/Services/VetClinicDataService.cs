@@ -1,4 +1,6 @@
-﻿//using VetAppointment.API.Dtos;
+﻿using System.Text;
+using System.Text.Json;
+using VetAppointment.Shared.Domain;
 
 namespace VetAppointment.UI.Pages.Services
 {
@@ -40,17 +42,15 @@ namespace VetAppointment.UI.Pages.Services
         //    return await response.Content.ReadFromJsonAsync<Pet>();
         //}
 
-        public async Task<Vet> AddVetToClinic(Guid clinicId, Vet vet)
+        public async Task<string> AddVetToClinic(Guid clinicId, Vet vet)
         {
-            var ApiURLClinic = $"{ApiURL}/{clinicId}/vet";
+            var ApiURLClinic = $"{ApiURL}/{{{clinicId}}}/vet";
             var options = new JsonSerializerOptions() { PropertyNameCaseInsensitive = true };
-            var result = new VetAppointment.API.Dtos.VetDto(vet.Name, vet.Surname, vet.Birthdate, vet.Gender, vet.Email,
-                vet.Phone, vet.Specialisation);
-            var json = JsonSerializer.Serialize(result);
+            var json = JsonSerializer.Serialize(vet);
             var response = await httpClient.PostAsync
-                    (ApiURLClinic, new StringContent(json, Encoding.UTF8, "application/json"));
+                    (ApiURLClinic, new StringContent(json, UnicodeEncoding.UTF8, "application/json"));
             response.EnsureSuccessStatusCode();
-            return await JsonSerializer.DeserializeAsync<Vet>(response.Content.ReadAsStream(), options);
+            return response.Content.ToString();
         }
 
         public async Task<VetClinic> GetClinicById(Guid id)

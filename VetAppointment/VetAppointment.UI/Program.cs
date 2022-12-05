@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using VetAppointment.UI;
 using VetAppointment.UI.Pages.Services;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);

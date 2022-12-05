@@ -27,7 +27,7 @@ namespace VetAppointment.API.Controllers
                     d => new PrescribedDrugDto
                     {
                         Quantity = d.Quantity,
-                        DrugId = d.DrugToPrescribeId,
+                        DrugId = d.DrugId,
                         TotalCost = d.TotalCost
                     }
                 );

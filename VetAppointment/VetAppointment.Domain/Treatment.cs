@@ -47,31 +47,5 @@ namespace VetAppointment.Domain
             return Result.Success();
         }
 
-        public Result RemoveDrugFromTreatment(PrescribedDrug prescribedDrug)
-        {
-            var result = this.PrescribedDrugs.Remove(prescribedDrug);
-
-            if (result == false)
-            {
-                return Result.Failure("Not found");
-            }
-
-            return Result.Success();
-        }
-    
-        public Result UpdateDescription(string description)
-        {
-            if (description == null)
-            {
-                return Result.Failure("Description can not be null");
-            }
-            
-            if (!this.Description.Equals(description))
-            {
-                return Result.Failure("Update Error");
-            }
-
-            return Result.Success();
-        }
     }
 }

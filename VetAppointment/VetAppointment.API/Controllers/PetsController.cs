@@ -23,7 +23,6 @@ namespace VetAppointment.API.Controllers
                 (
                     p => new PetDto
                     {
-                        Id= p.Id,
                         Name = p.Name,
                         Birthdate = p.Birthdate.ToString(),
                         Race = p.Race.ToString(),

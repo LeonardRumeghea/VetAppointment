@@ -36,81 +36,65 @@ namespace VetAppointment.API.Controllers
             return Ok(medicalHistories);
         }
 
-        [HttpPost("{medicalHistoryId:Guid}/appointment")]
-        public IActionResult Post(Guid medicalHistoryId, [FromBody] AppointmentDto appointmentDto)
+        [HttpPost]
+        public IActionResult Create([FromBody] CreateMedicalHistoryDto medHistoryDto)
         {
-            var medicalHistory = medicalHistoryRepository.Get(medicalHistoryId);
-            if (medicalHistory == null)
+            var medHistory = MedicalHistory.Create(
+                );
+
+            if (medHistory.IsFailure)
+            {
+                return BadRequest(medHistory.Error);
+            }
+
+            medicalHistoryRepository.Add(medHistory.Entity);
+            var fullMedHistory = new MedicalHistoryDto
+            {
+                Id = medHistory.Entity.Id,
+            };
+
+            medicalHistoryRepository.Add(medHistory.Entity);
+            medicalHistoryRepository.SaveChanges();
+
+            return Created(nameof(Get), fullMedHistory);
+        }
+
+        [HttpPost("{vetClinicId:guid}/appointment")]
+        public IActionResult RegisterAppointment(Guid historyId, [FromBody] AppointmentDto appDto)
+        {
+            MedicalHistory medHistory = medicalHistoryRepository.Get(historyId);
+            if (medHistory == null)
             {
                 return NotFound();
             }
-
-            var pet = petRepository.Get(appointmentDto.PetId);
+            var pet = petRepository.Get(appDto.PetId);
             if (pet == null)
             {
                 return NotFound();
             }
-
-            var vet = vetRepository.Get(appointmentDto.VetId);
+            var vet = vetRepository.Get(appDto.VetId);
             if (vet == null)
             {
                 return NotFound();
             }
 
-            var appointment = Appointment.SettleAppointment(vet, pet, appointmentDto.ScheduledDate, appointmentDto.EstimatedDurationInMinutes);
+            var appointment = Appointment.SettleAppointment(vet, pet, appDto.ScheduledDate, appDto.EstimatedDurationInMinutes);
             if (appointment.IsFailure)
             {
-                return BadRequest(appointment.Error);
+                return BadRequest();
             }
 
-            var result = medicalHistory.RegisterAppointmentToHistory(appointment.Entity);
+            var result = medHistory.RegisterAppointmentToHistory(appointment.Entity);
             if (result.IsFailure)
             {
                 return BadRequest(result.Error);
             }
 
+            medicalHistoryRepository.Update(medHistory);
             appointmentRepository.Add(appointment.Entity);
             appointmentRepository.SaveChanges();
 
-            return Ok();
+            return NoContent();
         }
-
-        //[HttpPost("{vetClinicId:guid}/appointment")]
-        //public IActionResult RegisterAppointment(Guid historyId, [FromBody] AppointmentDto appDto)
-        //{
-        //    MedicalHistory medHistory = medicalHistoryRepository.Get(historyId);
-        //    if (medHistory == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    var pet = petRepository.Get(appDto.PetId);
-        //    if (pet == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    var vet = vetRepository.Get(appDto.VetId);
-        //    if (vet == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var appointment = Appointment.SettleAppointment(vet, pet, appDto.ScheduledDate, appDto.EstimatedDurationInMinutes);
-        //    if (appointment.IsFailure)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    var result = medHistory.RegisterAppointmentToHistory(appointment.Entity);
-        //    if (result.IsFailure)
-        //    {
-        //        return BadRequest(result.Error);
-        //    }
-
-        //    medicalHistoryRepository.Update(medHistory);
-        //    appointmentRepository.Add(appointment.Entity);
-        //    appointmentRepository.SaveChanges();
-
-        //    return NoContent();
-        //}
     }
 }

@@ -1,4 +1,9 @@
-﻿namespace VetAppointment.UI.Pages.Services
+﻿using System.Net.Http.Json;
+using System.Text;
+using System.Text.Json;
+using VetAppointment.Shared.Domain;
+
+namespace VetAppointment.UI.Pages.Services
 {
     public class PetOwnerDataService : IPetOwnerDataService
     {

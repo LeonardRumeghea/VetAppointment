@@ -49,15 +49,10 @@ namespace VetAppointment.Domain
                 RegistrationDate = DateTime.Now,
                 NumberOfPlaces = numberOfPlaces,
                 Pets = new List<Pet>(),
-                Vets = new List<Vet>(),
+                Vets = new List<Vet>()
             };
 
             return Result<VetClinic>.Success(vetClinic);
-        }
-
-        public void AttachMedicalHistory(Guid medicalHistoryId)
-        {
-            MedicalHistoryId = medicalHistoryId;
         }
 
         public Result RegisterPetsFamilyToClinic(List<Pet> pets)
@@ -93,41 +88,5 @@ namespace VetAppointment.Domain
         public void ConnectToOwner(ClinicOwner owner) => Owner = owner;
 
         public int GetAvailableNumberOfPlaces() => NumberOfPlaces - Pets.Count;
-
-        public Result<VetClinic> Update(string name, string address, int numberOfPlaces, string contactEmail, string contactPhone)
-        {
-            if (name != "" && name != null)
-            {
-                this.Name = name;
-            }
-
-            if (address != "" && address != null)
-            {
-                this.Address = address;
-            }
-
-            if ( numberOfPlaces <= 0)
-            {
-                return Result<VetClinic>.Failure($"The number of " +
-                    $"places for the shelter needs to be greater than " +
-                    $"'{0}'");
-            }
-            this.NumberOfPlaces = numberOfPlaces;
-
-            if (contactEmail != null && contactEmail != "" && !Validations.IsValidEmail(contactEmail))
-            {
-                return Result<VetClinic>.Failure($"Email {contactEmail} is not valid");
-            }
-            this.ContactEmail = contactEmail;
-
-            if (contactPhone != null && contactPhone != "" && !Validations.IsValidPhoneNumber(contactPhone))
-            {
-                return Result<VetClinic>.Failure($"Phone number {contactPhone} is not valid");
-            }
-            this.ContactPhone = contactPhone;
-
-
-            return Result<VetClinic>.Success(this);
-        }
     }
 }

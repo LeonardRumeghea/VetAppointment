@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = VetAppointment.UI
 build_property.RootNamespace = VetAppointment.UI
-build_property.ProjectDir = D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.UI\
+build_property.ProjectDir = D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.UI\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.UI
+build_property.MSBuildProjectDirectory = D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/App.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/Pages/AppointmentsOverview.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/Pages/AppointmentsOverview.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzT3ZlcnZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/Pages/ClinicsOverview.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/Pages/ClinicsOverview.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpbmljc092ZXJ2aWV3LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/Pages/Counter.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/Pages/FetchData.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/Pages/Index.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/Pages/PetOwnersOverview.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/Pages/PetOwnersOverview.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0T3duZXJzT3ZlcnZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/Pages/PetsOverview.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/Pages/PetsOverview.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0c092ZXJ2aWV3LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/Shared/SurveyPrompt.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/_Imports.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/Shared/MainLayout.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-m7e1cozw5t
 
-[D:/Documents/GitHub/VetAppointment_.NET/VetAppointment/VetAppointment.UI/Shared/NavMenu.razor]
+[D:/Documents/GitHub/VetAppointment/VetAppointment/VetAppointment.UI/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-upf3rb5pnh

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Business.Test\\VetAppointment.Business.Test.csproj": {}
+    "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Business.Test\\VetAppointment.Business.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Business.Test\\VetAppointment.Business.Test.csproj": {
+    "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Business.Test\\VetAppointment.Business.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Business.Test\\VetAppointment.Business.Test.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Business.Test\\VetAppointment.Business.Test.csproj",
         "projectName": "VetAppointment.Business.Test",
-        "projectPath": "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Business.Test\\VetAppointment.Business.Test.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Business.Test\\VetAppointment.Business.Test.csproj",
         "packagesPath": "C:\\Users\\Leonard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Business.Test\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Business.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\VetAppointment.Domain.csproj": {
-                "projectPath": "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\VetAppointment.Domain.csproj"
+              "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\VetAppointment.Domain.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\VetAppointment.Domain.csproj"
               }
             }
           }
@@ -54,13 +54,13 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.4.0, )"
+              "version": "[17.3.2, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.2.0, )"
+              "version": "[3.1.2, )"
             },
             "xunit": {
               "target": "Package",
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\VetAppointment.Domain.csproj": {
+    "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\VetAppointment.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\VetAppointment.Domain.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\VetAppointment.Domain.csproj",
         "projectName": "VetAppointment.Domain",
-        "projectPath": "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\VetAppointment.Domain.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\VetAppointment.Domain.csproj",
         "packagesPath": "C:\\Users\\Leonard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leonard\\Desktop\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment\\VetAppointment.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -13,6 +13,10 @@
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-LZ9\/rytjyZiFmFLJJ3eNXTIAlcm8dbKj\/vT3N6vPXqg=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-wa9dKaCIgfTZkr2Ca8QiW3bsjHFZw3Fn8X114nXO25o=",
       "Microsoft.AspNetCore.Metadata.dll": "sha256-mFDOnLuhJraetVG1skdrXwUnBj7sNxv2HNiaJHjPGCw=",
+      "Microsoft.EntityFrameworkCore.dll": "sha256-fkB0k4ufcfowVFOPu44Q5vIgndrRW59pKZEwCgkVvBE=",
+      "Microsoft.EntityFrameworkCore.Abstractions.dll": "sha256-ki3HFT2MaMyFEpujQHD8LVuUNXYs+YaeJN+0Gr+Z0kY=",
+      "Microsoft.Extensions.Caching.Abstractions.dll": "sha256-tiD1Xg\/wcoUkJVBDtLfs5EiB1IwSUm0d\/lPffRVbKOc=",
+      "Microsoft.Extensions.Caching.Memory.dll": "sha256-xNEDLuTrpWv6Lq76qNCi\/PYwN6Ev6cjFAzNQPsAKMfg=",
       "Microsoft.Extensions.Configuration.dll": "sha256-PqQvp77oZ4+uuy2ElXk8AU9I6RfZSf18UGTrd4rulOo=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-CnS3b9EMFQmETBUVEgtcron4DBsfFdcVt3zfCP6Uflg=",
       "Microsoft.Extensions.Configuration.Binder.dll": "sha256-3rTnsLgQSM1ims+xsGWGxVCZ1UNwRSmni\/CeDpwh434=",
@@ -199,17 +203,15 @@
       "mscorlib.dll": "sha256-pO\/W4w\/X+UjVMUMaxE5tYTQ0tILP+hmMu0zi0MSVBLc=",
       "netstandard.dll": "sha256-kj5cBXzwPYC+HD+P8+6VybY34JtEzjXjMIHXEI3hIiM=",
       "System.Private.CoreLib.dll": "sha256-Awk1lCiFfH7r9AAZfBtGqS8rhv6UJ5lUu3yF6HDH3tQ=",
-      "VetAppointment.Domain.dll": "sha256-IRmcKlvyOB42z3sAn2wUOkySdLrsDS90egzXGgAoiq4=",
-      "VetAppointment.Shared.dll": "sha256-jZv+wOivAkiJ9jqvI6p2Fu62MfnRh3xwGzchMvMMw9A=",
-      "VetAppointment.UI.dll": "sha256-qUE9imDviP2IFHBxwa6eywueuU60Yx95SlUmBI0GkA0="
+      "VetAppointment.Shared.dll": "sha256-wyAkEbQhDu3YMhgcbIOux51dSVTNbuCvYAPRLwxCgI8=",
+      "VetAppointment.UI.dll": "sha256-mEldUuh0LLaR7bRxyGw\/9CTbDbqNXL\/Ahgx\/jPSAwk8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "VetAppointment.Shared.pdb": "sha256-UFkf3jtWV0+Z5IhOhF1xAuq8Z6ZSZXEPCYAxaTTiJUg=",
-      "VetAppointment.Domain.pdb": "sha256-XD9MaRklPrV70pi8aJSEJ0qGBHXJ8mZ\/+LjMA6lcdtw=",
-      "VetAppointment.UI.pdb": "sha256-DcPC+ZiagNWox9RNEr1XlUGnPTYD51t7svicNTdZ5VY="
+      "VetAppointment.Shared.pdb": "sha256-nh9ILYCTWCvdRoFGeMthDFz9KYcpeEkHqiQTEZ3k79k=",
+      "VetAppointment.UI.pdb": "sha256-wHblr5Oklb59EJdqgxc3c1rp6TzJXQ8dm3zyApVvYGo="
     },
     "runtime": {
       "dotnet.7.0.0.z3k3d26138.js": "sha256-2jNLve8W0sST0LAebgAc1IwSnGhkbjOKO8QPWWiJssI=",

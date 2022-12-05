@@ -1,45 +1,36 @@
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.deps.json
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.dll
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.pdb
-D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Domain.dll
-D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Domain.pdb
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.AssemblyReference.cache
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.GeneratedMSBuildEditorConfig.editorconfig
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.AssemblyInfoInputs.cache
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.AssemblyInfo.cs
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.CoreCompileInputs.cache
-D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.CopyComplete
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.dll
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\refint\VetAppointment.Shared.dll
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.pdb
 D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\ref\VetAppointment.Shared.dll
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.deps.json
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.dll
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.pdb
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Domain.dll
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Domain.pdb
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.AssemblyReference.cache
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.GeneratedMSBuildEditorConfig.editorconfig
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.AssemblyInfoInputs.cache
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.AssemblyInfo.cs
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.CoreCompileInputs.cache
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.CopyComplete
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.dll
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\refint\VetAppointment.Shared.dll
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.pdb
-D:\Documents\GitHub\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\ref\VetAppointment.Shared.dll
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.deps.json
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.dll
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.pdb
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Domain.dll
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Domain.pdb
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.AssemblyReference.cache
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.AssemblyInfoInputs.cache
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.AssemblyInfo.cs
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.CoreCompileInputs.cache
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.CopyComplete
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.dll
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\refint\VetAppointment.Shared.dll
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.pdb
-C:\Users\Leonard\Desktop\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\ref\VetAppointment.Shared.dll
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.deps.json
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.dll
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.pdb
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.AssemblyReference.cache
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.AssemblyInfoInputs.cache
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.AssemblyInfo.cs
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.dll
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\refint\VetAppointment.Shared.dll
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.pdb
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\ref\VetAppointment.Shared.dll
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.deps.json
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.dll
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\bin\Debug\net7.0\VetAppointment.Shared.pdb
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.AssemblyReference.cache
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.AssemblyInfoInputs.cache
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.AssemblyInfo.cs
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.dll
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\refint\VetAppointment.Shared.dll
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\VetAppointment.Shared.pdb
+D:\Documents\GitHub\VetAppointment\VetAppointment\VetAppointment.Shared\obj\Debug\net7.0\ref\VetAppointment.Shared.dll

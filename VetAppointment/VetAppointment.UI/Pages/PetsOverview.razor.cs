@@ -1,4 +1,6 @@
-﻿using VetAppointment.UI.Pages.Services;
+﻿using Microsoft.AspNetCore.Components;
+using VetAppointment.Shared.Domain;
+using VetAppointment.UI.Pages.Services;
 
 namespace VetAppointment.UI.Pages
 {

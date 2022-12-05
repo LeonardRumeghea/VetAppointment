@@ -9,9 +9,5 @@
         public Guid VetId { get; set; }
 
         public Guid PetId { get; set; }
-
-        public Guid TreatmentId { get; set; }
-
-        public Guid MedicalHistoryId { get; set; }
     }
 }

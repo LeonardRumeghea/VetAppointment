@@ -8,16 +8,17 @@
 
   <ItemGroup>
     <None Remove="Pages\ClinicsOverview.razor.cs~RFf3cc73e.TMP" />
+    <None Remove="Pages\Services\VetClinicDataService.cs~RF1b5f26fe.TMP" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VetAppointment.API\VetAppointment.API.csproj" />
     <ProjectReference Include="..\VetAppointment.Shared\VetAppointment.Shared.csproj" />
   </ItemGroup>
 

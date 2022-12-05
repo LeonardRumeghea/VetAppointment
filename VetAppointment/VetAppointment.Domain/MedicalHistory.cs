@@ -13,12 +13,12 @@ namespace VetAppointment.Domain
         {
             var medicalHistory = new MedicalHistory
             {
-                Id = Guid.NewGuid(),
-                Appointments = new List<Appointment>(),
+                Appointments = new List<Appointment>()
             };
 
             return Result<MedicalHistory>.Success(medicalHistory);
         }
+
         
         public Result RegisterAppointmentToHistory(Appointment appointment)
         {
@@ -29,23 +29,6 @@ namespace VetAppointment.Domain
 
             appointment.AttachAppointmentToMedicalHistory(this);
             Appointments.Add(appointment);
-
-            return Result.Success();
-        }
-
-        public void AtachToClinic(Guid clinicId)
-        {
-            this.ClinicId = clinicId;
-        }
-
-        public Result RemoveAppointmentFromHistory(Appointment appointment)
-        {
-            if (appointment == null)
-            {
-                return Result.Failure("Appointment does not exist");
-            }
-
-            Appointments.Remove(appointment);
 
             return Result.Success();
         }

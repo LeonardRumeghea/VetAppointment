@@ -1,8 +1,8 @@
 ﻿using VetAppointment.Domain.Helpers;
 
-#nullable disable
 namespace VetAppointment.Domain
 {
+    #nullable disable
     public class Appointment
     {
         public Guid Id { get; private set; }
@@ -12,6 +12,7 @@ namespace VetAppointment.Domain
         public int EstimatedDurationInMinutes { get; private set; }
         public Guid TreatmentId { get; private set; }
         public Guid MedicalHistoryId { get; private set; }
+
 
         public static Result<Appointment> SettleAppointment(Vet vet, Pet pet, DateTime date, int duration)
         {
@@ -41,6 +42,7 @@ namespace VetAppointment.Domain
             return Result<Appointment>.Success(appointment);
         }
 
+
         public void AttachTreatmentToAppointment(Treatment treatment)
         {
             TreatmentId = treatment.Id;
@@ -49,29 +51,6 @@ namespace VetAppointment.Domain
         public void AttachAppointmentToMedicalHistory(MedicalHistory history)
         {
             MedicalHistoryId = history.Id;
-        }
-    
-        public Result Update(Guid vetId, Guid petId, DateTime scheduledDate, int estimatedDurationInMinutes,
-            Guid treatmentId, Guid medicalHistoryId)
-        {
-            if (estimatedDurationInMinutes <= 0)
-            {
-                return Result.Failure($"Duration cannot be less than 0");
-            }
-
-            if (scheduledDate < DateTime.Now)
-            {
-                return Result.Failure($"Date cannot be in the past");
-            }
-
-            VetId = vetId;
-            PetId = petId;
-            ScheduledDate = scheduledDate;
-            EstimatedDurationInMinutes = estimatedDurationInMinutes;
-            TreatmentId = treatmentId;
-            MedicalHistoryId = medicalHistoryId;
-
-            return Result.Success();
         }
     }
 }

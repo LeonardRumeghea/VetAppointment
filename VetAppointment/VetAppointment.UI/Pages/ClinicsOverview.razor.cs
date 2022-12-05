@@ -1,4 +1,6 @@
-﻿using VetAppointment.UI.Pages.Services;
+﻿using Microsoft.AspNetCore.Components;
+using VetAppointment.Shared.Domain;
+using VetAppointment.UI.Pages.Services;
 
 namespace VetAppointment.UI.Pages
 {
@@ -50,7 +52,7 @@ namespace VetAppointment.UI.Pages
         {
             if (IsVetBeingAdded)
             {
-                Vet = await VetClinicDataService.AddVetToClinic(Guid.Parse(Vet.ClinicId), Vet);
+                await VetClinicDataService.AddVetToClinic(Guid.Parse(Vet.ClinicId), Vet);
             }
         }
 

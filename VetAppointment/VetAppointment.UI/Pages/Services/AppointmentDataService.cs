@@ -1,4 +1,8 @@
-﻿namespace VetAppointment.UI.Pages.Services
+﻿using System.Text;
+using System.Text.Json;
+using VetAppointment.Shared.Domain;
+
+namespace VetAppointment.UI.Pages.Services
 {
     public class AppointmentDataService : IAppointmentDataService
     {

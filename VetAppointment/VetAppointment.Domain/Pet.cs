@@ -56,34 +56,5 @@ namespace VetAppointment.Domain
         {
             OwnerId = petOwner.Id;
         }
-    
-        public Result Update(string name, string birthdate, string race, string gender)
-        {
-            if (!Enum.TryParse<AnimalRace>(race, out var animalRace))
-            {
-                var expectedRaceValues = Enum.GetNames(typeof(AnimalRace));
-                var textExpectedRaceValues = string.Join(", ", expectedRaceValues);
-                return Result.Failure($"The provided race {race} is not one from the possible races: {textExpectedRaceValues}");
-            }
-
-            if (!Enum.TryParse<AnimalGender>(gender, out var animalGender))
-            {
-                var expectedGenderValues = Enum.GetNames(typeof(AnimalGender));
-                var textExpectedGenderValues = string.Join(", ", expectedGenderValues);
-                return Result.Failure($"The provided gender {gender} is not one from the possible races: {textExpectedGenderValues}");
-            }
-
-            if (!DateTime.TryParse(birthdate, out DateTime date))
-            {
-                return Result.Failure($"Invalid birthdate - {birthdate}!");
-            }
-
-            Name = name;
-            Birthdate= date;
-            Race = animalRace;
-            Gender = animalGender;
-
-            return Result.Success();
-        }
     }
 }
