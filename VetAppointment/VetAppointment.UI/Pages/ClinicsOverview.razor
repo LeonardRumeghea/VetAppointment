@@ -1,0 +1,189 @@
+﻿@page "/clinicsoverview"
+
+<style>
+    th, td {
+        vertical-align: middle;
+        text-align: center
+    }
+</style>
+
+<PageTitle>Clinic Overview</PageTitle>
+<h1>Clinics Overview</h1>
+
+<h3>All Clinics</h3>
+@if (Clinics == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table table-light">
+        <thead class="table-primary">
+            <tr>
+                <th>Clinic ID</th>
+                <th>Clinic Name</th>
+                <th>Clinic Address</th>
+                <th>Clinic NumberOfPlaces</th>
+                <th>Clinic ContactEmail</th>
+                <th>Clinic ContactPhone</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var clinic in Clinics)
+            {
+                <tr>
+                    <td>@clinic.Id</td>
+                    <td>@clinic.Name</td>
+                    <td>@clinic.Address</td>
+                    <td>@clinic.NumberOfPlaces</td>
+                    <td>@clinic.ContactEmail</td>
+                    <td>@clinic.ContactPhone</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<h3>Add Clinic</h3>
+<div class="btn-group">
+    <button type="button" class="btn btn-info float-right" @onclick="StartCreateClinic">Create Clinic</button>
+</div>
+<br />
+
+@if (Clinic != null)
+{
+    <EditForm class="container" Model="Clinic" OnSubmit="CreateClinic">
+        <DataAnnotationsValidator />
+        @*<ValidationSummary />*@
+
+        <div>
+            <label for="name">Name</label>
+            <InputText id="name" @bind-Value="Clinic.Name" placeholder="Clinic Name" class="form-control" />
+            <ValidationMessage For="@(() => Clinic.Name)"></ValidationMessage>
+        </div>
+
+        <div class="form-group">
+            <label for="address">Address</label>
+            <InputText id="address" @bind-Value="Clinic.Address" class="form-control" />
+            <ValidationMessage For="@(() => Clinic.Address)"></ValidationMessage>
+        </div>
+
+        <div class="form-group">
+            <label for="places">Number of places</label>
+            <InputNumber id="places" @bind-Value="Clinic.NumberOfPlaces" class="form-control" />
+            <ValidationMessage For="@(() => Clinic.NumberOfPlaces)"></ValidationMessage>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <InputText id="email" @bind-Value="Clinic.ContactEmail" class="form-control" />
+            <ValidationMessage For="@(() => Clinic.ContactEmail)"></ValidationMessage>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone number</label>
+            <InputText id="phone" @bind-Value="Clinic.ContactPhone" class="form-control" />
+            <ValidationMessage For="@(() => Clinic.ContactPhone)"></ValidationMessage>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="submit" class="btn btn-success">Create</button><br />
+            </div>
+        </div>
+    </EditForm>
+}
+
+<h3>Get Clinic By Id</h3>
+
+<button type="button" class="btn btn-info float-right" @onclick="StartRetrieving">Retrieve</button>
+
+@if (Id != null)
+{
+    <EditForm class="container" Model="Id" OnSubmit="GetById">
+        <div class="form-group">
+            <label for="id">Id</label>
+            <InputText id="id" @bind-Value="Id" class="form-control" />
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="submit" class="btn btn-success">Retrieve</button>
+            </div>
+        </div>
+    </EditForm>
+}
+@if (ClinicToGet != null)
+{
+    <table class="table table-light">
+        <thead class="table-primary">
+            <tr>
+                <th>Clinic ID</th>
+                <th>Clinic Name</th>
+                <th>Clinic Address</th>
+                <th>Clinic NumberOfPlaces</th>
+                <th>Clinic ContactEmail</th>
+                <th>Clinic ContactPhone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@ClinicToGet.Id</td>
+                <td>@ClinicToGet.Name</td>
+                <td>@ClinicToGet.Address</td>
+                <td>@ClinicToGet.NumberOfPlaces</td>
+                <td>@ClinicToGet.ContactEmail</td>
+                <td>@ClinicToGet.ContactPhone</td>
+            </tr>
+        </tbody>
+    </table>
+}
+<h3>Add vet to clinic</h3>
+<div class="btn-group">
+    <button type="button" class="btn btn-info float-right" @onclick="StartAddVetToClinic">Add vet to a clinic</button>
+</div>
+<br />
+
+@if (Vet != null)
+{
+    <EditForm class="container" Model="Vet" OnSubmit="AddVetToClinic">
+        <div class="form-group">
+            <label for="clinicid">Clinic ID</label>
+            <InputText id="name" @bind-Value="Vet.ClinicId" placeholder="Clinic ID" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="name">Vet Name</label>
+            <InputText id="name" @bind-Value="Vet.Name" placeholder="Vet Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="surname">Vet Surame</label>
+            <InputText id="surname" @bind-Value="Vet.Surname" placeholder="Vet Surame" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="birthdate">Vet Birthdate</label>
+            <InputText id="name" @bind-Value="Vet.Birthdate" placeholder="Vet Birthdate" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            @*<input type="radio" name="gender" @bind-value="Vet.Gender" />Male
+            <input type="radio" name="gender" @bind-value="Vet.Gender" />Female*@
+            <InputText id="gender" @bind-Value="Vet.Gender" placeholder="Vet Gender" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="email">Vet Email</label>
+            <InputText id="email" @bind-Value="Vet.Email" placeholder="Vet Email" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="phone">Vet Phone Number</label>
+            <InputText id="phone" @bind-Value="Vet.Phone" placeholder="Vet Phone Number" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="specialisation">Vet Specialisation</label>
+            <InputText id="specialisation" @bind-Value="Vet.Specialisation" placeholder="Vet Specialisation" class="form-control" />
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button type="submit" class="btn btn-success">Add Vet</button>
+            </div>
+        </div>
+    </EditForm>
+}

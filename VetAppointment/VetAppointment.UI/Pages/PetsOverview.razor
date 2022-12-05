@@ -1,0 +1,30 @@
+﻿@page "/petsoverview"
+<h2>Pets Overview</h2>
+@if (Pets == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <tabel class="table table-light">
+        <thead class="table-primary">
+        <th>Pet Id</th>
+        <th>Pet Name</th>
+        <th>Pet Birthdate</th>
+        <th>Pet Race</th>
+        <th>Pet Gender</th>
+        </thead>
+        <tbody>
+            @foreach (var pet in Pets)
+            {
+                <tr>
+                    <td>@pet.Id</td>
+                    <td>@pet.Name</td>
+                    <td>@pet.Birthdate</td>
+                    <td>@pet.Race</td>
+                    <td>@pet.Gender</td>
+                </tr>
+            }
+        </tbody>
+    </tabel>
+}

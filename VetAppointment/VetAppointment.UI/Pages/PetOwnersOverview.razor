@@ -1,0 +1,37 @@
+﻿@page "/petownersoverview"
+<h2>Pet Owners Overview</h2>
+@if (PetOwners == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <tabel class="table table-light">
+        <thead class="table-primary">
+            <th>PetOwner Id</th>
+            <th>PetOwner Name</th>
+            <th>PetOwner Surname</th>
+            <th>PetOwner Birthdate</th>
+            <th>PetOwner Gender</th>
+            <th>PetOwner Address</th>
+            <th>PetOwner Email</th>
+            <th>PetOwner Phone</th>
+        </thead>
+
+        <tbody>
+            @foreach (var petOwner in PetOwners)
+            {
+                <tr>
+                    <td>@petOwner.Id</td>
+                    <td>@petOwner.Name</td>
+                    <td>@petOwner.Surname</td>
+                    <td>@petOwner.Birthdate</td>
+                    <td>@petOwner.Gender</td>
+                    <td>@petOwner.Address</td>
+                    <td>@petOwner.Email</td>
+                    <td>@petOwner.Phone</td>
+                </tr>
+            }
+        </tbody>
+    </tabel>
+}

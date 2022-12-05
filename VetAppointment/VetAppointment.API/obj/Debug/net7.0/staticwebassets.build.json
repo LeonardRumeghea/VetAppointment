@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TogxWFxZQQ8P6dceYI9F9sNYfX6UdPsEni5yvXvhrgk=",
+  "Source": "VetAppointment.API",
+  "BasePath": "_content/VetAppointment.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
