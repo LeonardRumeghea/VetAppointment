@@ -1,0 +1,6 @@
+{
+  "VetAppointment.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\10.12.2022\\VetAppoinement\\VetAppointment.API",
+  "VetAppointment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\10.12.2022\\VetAppoinement\\VetAppointment.Application",
+  "VetAppointment.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\10.12.2022\\VetAppoinement\\VetAppointment.Domain",
+  "VetAppointment.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\10.12.2022\\VetAppoinement\\VetAppointment.Infrastructure"
+}

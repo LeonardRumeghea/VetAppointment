@@ -1,0 +1,6 @@
+{
+  "VetAppointment.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Documents\\GitHub\\VetAppointment_.NET\\VetAppointment - APIs + Tests\\VetAppointment - Working\\VetAppointment.API",
+  "VetAppointment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Documents\\GitHub\\VetAppointment_.NET\\VetAppointment - APIs + Tests\\VetAppointment - Working\\VetAppointment.Application",
+  "VetAppointment.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Documents\\GitHub\\VetAppointment_.NET\\VetAppointment - APIs + Tests\\VetAppointment - Working\\VetAppointment.Domain",
+  "VetAppointment.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Documents\\GitHub\\VetAppointment_.NET\\VetAppointment - APIs + Tests\\VetAppointment - Working\\VetAppointment.Infrastructure"
+}

@@ -1,0 +1,114 @@
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.deps.json
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.runtimeconfig.json
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.dll
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.pdb
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.dll
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.dll
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.pdb
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.pdb
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfo.cs
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CopyComplete
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.dll
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\refint\VetAppointment.Infrastructure.dll
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.pdb
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.genruntimeconfig.cache
+C:\Users\Leonard\Desktop\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\ref\VetAppointment.Infrastructure.dll
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.deps.json
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.runtimeconfig.json
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.dll
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.pdb
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.dll
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.dll
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.pdb
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.pdb
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.AssemblyReference.cache
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfoInputs.cache
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfo.cs
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CopyComplete
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.dll
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\refint\VetAppointment.Infrastructure.dll
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.pdb
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.genruntimeconfig.cache
+D:\Facultate\Anul_3\.NET\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\ref\VetAppointment.Infrastructure.dll
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.deps.json
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.runtimeconfig.json
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.dll
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.pdb
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.dll
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.dll
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.pdb
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.pdb
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfo.cs
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CopyComplete
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.dll
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\refint\VetAppointment.Infrastructure.dll
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.pdb
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.genruntimeconfig.cache
+C:\Users\Leonard\Desktop\VetAppointment_.NET (2)\VetAppointment_.NET\VetAppointment\VetAppointment.Infrastructure\obj\Debug\net7.0\ref\VetAppointment.Infrastructure.dll
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.deps.json
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.runtimeconfig.json
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.dll
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.pdb
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.dll
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.dll
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.pdb
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.pdb
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.AssemblyReference.cache
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfoInputs.cache
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfo.cs
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CoreCompileInputs.cache
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CopyComplete
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.dll
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\refint\VetAppointment.Infrastructure.dll
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.pdb
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.genruntimeconfig.cache
+D:\.NET\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\ref\VetAppointment.Infrastructure.dll
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.deps.json
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.runtimeconfig.json
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.dll
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.pdb
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.dll
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.dll
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.pdb
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.pdb
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.AssemblyReference.cache
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfoInputs.cache
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfo.cs
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CopyComplete
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.dll
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\refint\VetAppointment.Infrastructure.dll
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.pdb
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.genruntimeconfig.cache
+D:\Documents\GitHub\VetAppointment_.NET\VetAppointment - APIs + Tests\VetAppointment - Working\VetAppointment.Infrastructure\obj\Debug\net7.0\ref\VetAppointment.Infrastructure.dll
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.deps.json
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.runtimeconfig.json
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.dll
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Infrastructure.pdb
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.dll
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.dll
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Application.pdb
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\bin\Debug\net7.0\VetAppointment.Domain.pdb
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.AssemblyReference.cache
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfoInputs.cache
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.AssemblyInfo.cs
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CoreCompileInputs.cache
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.csproj.CopyComplete
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.dll
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\refint\VetAppointment.Infrastructure.dll
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.pdb
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\VetAppointment.Infrastructure.genruntimeconfig.cache
+D:\10.12.2022\VetAppoinement\VetAppointment.Infrastructure\obj\Debug\net7.0\ref\VetAppointment.Infrastructure.dll
