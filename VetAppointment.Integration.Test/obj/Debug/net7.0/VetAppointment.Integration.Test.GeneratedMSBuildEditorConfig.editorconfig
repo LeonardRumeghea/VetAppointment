@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VetAppointment.Integration.Test
-build_property.ProjectDir = D:\10.12.2022\VetAppoinement\VetAppointment.Integration.Test\
+build_property.ProjectDir = D:\Documents\GitHub\VetAppointment\VetAppointment.Integration.Test\

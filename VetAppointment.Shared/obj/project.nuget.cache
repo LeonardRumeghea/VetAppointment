@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WJb5kgTa37VQp8czesioReCWdHKWwBr62TnqKTG0EvTaBdjbhJxBn131DMHUBDMZ/ZOb40sZFGGXwjLh6t/LJw==",
+  "dgSpecHash": "RCv/7mdgyafhCLRuVBB3mP9lvTbjtK5sMNBNdNuuvP4DKgJnJRoIudTvZZxmaRsnsWSbX779cS2kC6vZc1p51A==",
   "success": true,
-  "projectFilePath": "D:\\10.12.2022\\VetAppoinement\\VetAppointment.Shared\\VetAppointment.Shared.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\VetAppointment\\VetAppointment.Shared\\VetAppointment.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
